@@ -1,0 +1,127 @@
+nav {
+    background-color: #9cc2ee;
+    color: #f1eff1;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul p{
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding-right: 900px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 18px;
+    
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ccc;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+table {
+    border-collapse: collapse;
+    border: none; 
+}
+th, td {
+    border: none;
+    padding: 10px;
+}
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 50%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #444;
+    
+}
+.container {
+    border : 7.5px #b683a5;
+    border-style: solid;
+    margin-left: 75px;
+    max-width: 450px; 
+    margin-top: 150px;
+    margin-left: 500px;
+    text-align: center; 
+    box-shadow: rgba(161, 123, 150, 0.5) 0px 5px 10px 0px inset;
+    background-color:pink;
+}
+.container h1 {
+    margin-bottom: 70px; 
+}
+.bg h1{ 
+    text-align: center;
+}
+.container form{
+    margin-left: 75px;
+}
+.ppp{
+    padding: 300px;
+     
+}
+.abt{
+    padding: 200px;
+    margin-right: 250px;
+    color: #fff;
+}
+.abt h1{
+    color:#333;
+}
+.photo{ 
+    margin-left: 125px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    max-height: 150px;
+}
+.Image{
+    max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+}
+.photo :hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.bg{
+    background-color:#dcb5ee;
+}
